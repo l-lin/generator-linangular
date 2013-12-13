@@ -45,3 +45,7 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+## Release History
+
+ * 2013-XX-XX   v1.0.0   Work in progress, not yet officially released.

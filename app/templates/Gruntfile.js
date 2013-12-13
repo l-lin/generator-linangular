@@ -312,7 +312,7 @@ module.exports = function(grunt) {
                 'concurrent:server',
                 'autoprefixer',
                 'express:dist',
-                'watch'
+                'watch:livereload'
             ]);
         }
 
@@ -321,7 +321,7 @@ module.exports = function(grunt) {
             'concurrent:server',
             'autoprefixer',
             'express:livereload',
-            'watch'
+            'watch:livereload'
         ]);
     });
 

@@ -50,4 +50,4 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 ## Release History
 
- * 2013-XX-XX   v1.0.0   Work in progress, not yet officially released.
+ * 2013-12-13   v1.0.0   First release.

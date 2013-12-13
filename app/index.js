@@ -23,14 +23,13 @@ LinangularGenerator.prototype.askFor = function askFor() {
 	console.log(this.yeoman);
 	
 	var prompts = [{
-		type: 'confirm',
-		name: 'someOption',
-		message: 'Would you like to enable this option?',
-		default: true
+		name: 'authorName',
+		message: 'Would is your name?',
+		default: 'foobar'
 	}];
 	
 	this.prompt(prompts, function (props) {
-		this.someOption = props.someOption;
+		this.authorName = props.authorName;
 		
 		cb();
 	}.bind(this));

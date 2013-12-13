@@ -1,6 +1,8 @@
 # generator-linangular [![Build Status](https://secure.travis-ci.org/l-lin/generator-linangular.png?branch=master)](https://travis-ci.org/l-lin/generator-linangular)
 
 A generator for [Yeoman](http://yeoman.io).
+The [Angular generator](https://github.com/yeoman/generator-angular) provided by [Yeoman](http://yeoman.io) were not up to my liking, especially the folders organization.
+Recently, I was building a lot of new AngularJS application. Thus making my own AngularJS generator.
 
 
 ## Getting Started

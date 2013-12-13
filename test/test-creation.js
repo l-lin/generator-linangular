@@ -23,7 +23,8 @@ describe('linangular generator', function () {
         var expected = [
             // add files you expect to exist here.
             '.jshintrc',
-            '.editorconfig'
+            '.editorconfig',
+			'.bowerrc'
         ];
 
         helpers.mockPrompt(this.app, {

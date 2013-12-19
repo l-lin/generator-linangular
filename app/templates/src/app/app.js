@@ -1,6 +1,6 @@
 (function() {
 	'use strict';
-	angular.module('<%= _.slugify(appname) %>', [
+	angular.module('<%= _.slugify(appname) %>App', [
 		'ngCookies',
 		'ngResource',
 		'ngSanitize',

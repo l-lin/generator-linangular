@@ -24,7 +24,7 @@ LinangularGenerator.prototype.askFor = function askFor() {
 	
 	var prompts = [{
 		name: 'authorName',
-		message: 'Would is your name?',
+		message: 'What is your name?',
 		default: 'foobar'
 	}];
 	

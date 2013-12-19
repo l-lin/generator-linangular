@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function() {
 
     // load the controller's module
-    beforeEach(module('lrestoApp'));
+    beforeEach(module('<%= _.slugify(appname) %>'));
 
     var MainCtrl,
         scope;

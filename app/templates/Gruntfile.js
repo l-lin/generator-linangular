@@ -71,7 +71,6 @@ module.exports = function(grunt) {
                 options: {
                     open: true,
                     bases: [
-                        '<%= yeoman.build %>',
                         '<%= yeoman.src %>'
                     ],
                     server: 'server/appServer'
@@ -81,7 +80,6 @@ module.exports = function(grunt) {
                 options: {
                     port: 9001,
                     bases: [
-                        '<%= yeoman.build %>',
                         'test',
                         '<%= yeoman.src %>'
                     ]

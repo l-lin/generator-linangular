@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 },
                 files: [
                     '<%= yeoman.src %>/{,*/}*.html',
-                    '<%= yeoman.build %>/styles/{,*/}*.css',
+                    '<%= yeoman.src %>/styles/{,*/}*.css',
                     '{<%= yeoman.build %>,<%= yeoman.src %>}/app/{,*/}*.js',
                     '<%= yeoman.src %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
@@ -44,9 +44,7 @@ module.exports = function(grunt) {
                 },
                 files: [
                     '<%= yeoman.src %>/{,*/}*.html',
-                    '<%= yeoman.build %>/styles/{,*/}*.css',
-                    '{<%= yeoman.build %>,<%= yeoman.src %>}/app/{,*/}*.js',
-                    '<%= yeoman.src %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+                    '{<%= yeoman.build %>,<%= yeoman.src %>}/app/{,*/}*.js'
                 ],
                 tasks: ['test']
             }

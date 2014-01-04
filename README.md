@@ -1,4 +1,4 @@
-# generator-linangular [![Build Status](https://secure.travis-ci.org/l-lin/generator-linangular.png?branch=master)](https://travis-ci.org/l-lin/generator-linangular)
+# generator-linangular [![Build Status](https://secure.travis-ci.org/l-lin/generator-linangular.png?branch=master)](https://travis-ci.org/l-lin/generator-linangular) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 A generator for [Yeoman](http://yeoman.io).
 The [Angular generator](https://github.com/yeoman/generator-angular) provided by [Yeoman](http://yeoman.io) were not up to my liking, especially the folders organization.
@@ -48,6 +48,3 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-## Release History
-
- * 2013-12-13   v1.0.0   First release.
